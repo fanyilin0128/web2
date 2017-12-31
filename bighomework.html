@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web2大作业</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/web2.js"></script>
+</head>
+<body>
+	<div id="top">
+		<div id="new">
+			<h3 style="color: #FF8800;">&nbsp;&nbsp;&nbsp;&nbsp;最新热播电影TOP3</h3>
+			<div>
+				<table id="newpic">
+					<tr>
+						<td><img src="images/movie1.jpg" id="pic1"></td><td><img src="images/movie2.jpg" style="height: 295px;" id="pic2"></td><td><img src="images/movie3.jpg" style="height: 295px;" id="pic3"></td>
+					</tr>
+					<tr>
+						<td style="text-align: center;">Call Me by Your Name </td><td style="text-align: center;">暴雪将至</td><td style="text-align: center;">敦刻尔克 Dunkirk</td>
+					</tr>
+				</table>
+			</div>
+			<div id="introduce">
+				<h5 style="color: #B94FFF;">电影简介</h5>
+				<p id="biaoti" style="color: #B94FFF;">网站提供最新的电影介绍及评论包括上映影片的影讯。你可以记录想看、在看和看过的电影电视剧，顺便打分、写影评。网站会推荐好电影，总有你喜欢。</p>
+			</div>
+		</div>
+
+		<form>
+			<table>
+				<tr>
+					<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电影蜜</td>
+				</tr><tr></tr><tr></tr>
+				<tr>
+					<td>蜜名：</td><td><input type="text" name="username"></td>
+				<tr><tr></tr><tr></tr>
+					<td>密码：</td><td><input type="password" name="password"></td>
+				</tr><tr></tr><tr></tr>
+				<tr>
+					<td></td><td><input type="submit" value="登录">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="注册蜜会员"></td>
+				</tr>
+				</tr>
+			</table>
+		</form>	
+	</div>
+	<div class="nav">
+		<ul id="easynav">
+				<li><a href="#">电影排行</a>
+					<ul id="show">
+						<li><a href="#">最新</a></li>
+						<li><a href="#">最热</a></li>
+						<li><a href="#">好评</a></li>
+					</ul>
+				</li>
+				<li><a href="#">电影分类</a>
+					<ul id="show">
+						<li><a href="#">喜剧</a></li>
+						<li><a href="#">动作</a></li>
+						<li><a href="#">爱情</a></li>
+						<li><a href="#">历史</a></li>
+						<li><a href="#">悬疑</a></li>
+						<li><a href="#">惊悚</a></li>
+						<li><a href="#">科幻</a></li>
+						<li><a href="#">动画</a></li>
+					</ul>
+				</li>
+				<li><a href="#">影评专区</a></li>
+
+				<li><a href="#">蜜友论坛</a>
+					<ul id="show">
+						<li><a href="#">蜜友轻聊</a></li>
+						<li><a href="#">群友互动</a></li>
+					</ul>
+				</li>
+				<li><a href="#" style="width: 110px;">个人专区</a>
+					<ul id="show">
+						<li><a href="#">播放记录</a></li>
+						<li><a href="#">我的评论</a></li>
+						<li><a href="#">我的蜜友</a></li>
+					</ul>
+				</li>
+			</ul>
+	</div>
+	<div id="low">
+		<h3>最近热门电影</h3>
+		<br/>
+		<table class="pic">
+			<tr>
+				<td><img src="images/movie1.jpg"></td>
+				<td><img src="images/movie4.jpg"></td>
+				<td><img src="images/movie5.jpg"></td>
+				<td><img src="images/movie6.jpg"></td>
+				<td><img src="images/movie2.jpg"></td>
+			</tr>
+			<tr>
+				<td>请以你的名字呼唤我 <span style="color: orange;">9.0</span></td>
+				<td>嘉年华 <span style="color: orange;">8.4</span></td>
+				<td>天才抢手 <span style="color: orange;">8.2</span></td>
+				<td>追龙 <span style="color: orange;">7.4</span></td>
+				<td>暴雪将至 <span style="color: orange;">7.0</span></td>
+			</tr>
+			<tr>
+				<td><img src="images/movie3.jpg"></td>
+				<td><img src="images/movie.jpeg"></td>
+				<td><img src="images/movie7.jpg"></td>
+				<td><img src="images/movie8.jpg"></td>
+				<td><img src="images/movie9.jpg"></td>
+			</tr>
+			<tr>
+				<td>敦刻尔克 <span style="color: orange;">8.5</span></td>
+				<td>相亲相爱 <span style="color: orange;">6.6</span></td>
+				<td>银翼杀手 <span style="color: orange;">8.5</span></td>
+				<td>小丑回魂 <span style="color: orange;">7.3</span></td>
+				<td>战狼2 <span style="color: orange;">7.2</span></td>
+			</tr>
+		</table>
+		<br/>
+		<button><a href="#">上一页</a></button>
+		<button><a href="#">下一页</a></button>
+	</div>
+</body>
+</html>

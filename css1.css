@@ -1,0 +1,150 @@
+*{
+	background-color: #EEE;
+	margin:0px;
+	padding:0px;
+}
+#top{
+	height: 380px;
+	margin: 10px;
+	padding: 5px;
+}
+#top form{
+	float: left;
+	position: relative;
+	left: 10px;
+	top: 50px;
+	margin: 10px;
+}
+#new div{
+	float: left;
+	position: relative;
+	left: 20px;
+	margin: 10px;
+	padding: 5px;
+}
+#newpic{
+	width: 630px;
+}
+#newpic img{
+	width: 200px;
+}
+.piccolor{
+	border:2px solid yellow;
+}
+#introduce{
+	width: 300px;
+	padding-left: 20px;
+	margin: 5px;
+	padding: 5px;
+}
+.nav {
+    width: 1350px;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #d6d6d6;
+    z-index: 100;
+    position: relative;
+    z-index: 9999;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 20px;
+    margin-left: 400px;
+}
+li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: list-item;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    cursor: auto;
+}
+#easynav>li {
+	margin-left: -10px;
+	margin-top: -10px;
+    float: left;
+    list-style: none;
+}
+#easynav li a {
+    display: block;
+    width: 120px;
+    padding-top: 5px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+#easynav li:hover a{
+	background-color: #999;
+	color: white;
+}
+#easynav li ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    list-style-type: circle;
+}
+#easynav li ul li {
+    float: none;
+    display: block;
+}
+#easynav li ul li a {
+    width: 120px;
+    text-align: left;
+    padding-left: 25px;
+    background-color: #999;
+    color: white;
+    background-image: none;
+    font-size: 14px;
+    height: 50px;
+    line-height: 45px;
+    font-weight: 100;
+    cursor: auto;
+    width: 85px;
+}
+#easynav>li:hover .spic{
+	background-image: url(images/nav_hover.gif);
+}
+#easynav>li:hover #show{
+	display: block;
+}
+#easynav>li>ul>li>a:hover{
+	background-color: #00abed;
+	color: white;
+}
+#low{
+	width: 900px;
+	height: 600px;
+	margin-left: 250px;
+	margin-top: 20px;
+}
+.pic img{
+	width: 160px;
+	height: 240px;
+	margin-top: 5px;
+}
+.pic td{
+	padding-left: 5px;
+}
+.pic{
+	font-size: 15px;
+	text-align: center;
+}
+#low button{
+	margin-top: 10px;
+	margin-left: 250px;
+}
